@@ -17,4 +17,8 @@ public class Employee {
     public int getEmployeeId() {
         return employeeId;
     }
+
+    public String getName() {
+        return name;
+    }
 }
