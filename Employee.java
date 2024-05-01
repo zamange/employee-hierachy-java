@@ -11,5 +11,10 @@ public class Employee {
         this.salary = salary;
     }
 
+    //getter method
 
+
+    public int getEmployeeId() {
+        return employeeId;
+    }
 }
