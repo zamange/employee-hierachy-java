@@ -1,5 +1,10 @@
 public class Worker extends Employee{
-    public Worker(int employeeId, String name, double salary) {
+    private String shift;
+    public Worker(int employeeId, String name, double salary, String shift) {
         super(employeeId, name, salary);
+        this.shift = shift;
+    }
+    public String getShift() {
+        return shift;
     }
 }
