@@ -1,7 +1,15 @@
 public class Employee {
+    //properties
     private int employeeId;
     private String name;
     private double salary;
+
+    //constructor
+    public Employee( int employeeId, String name, double salary){
+        this.employeeId = employeeId;
+        this.name = name;
+        this.salary = salary;
+    }
 
 
 }
